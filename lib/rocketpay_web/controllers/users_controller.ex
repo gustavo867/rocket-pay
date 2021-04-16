@@ -1,6 +1,5 @@
 defmodule RocketpayWeb.UsersController do
   use RocketpayWeb, :controller
-
   alias Rocketpay.User
 
   action_fallback RocketpayWeb.FallbackController
